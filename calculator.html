@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/calculator.css">
+    <script src="js/script.js"></script>
+    <link rel="shortcut icon" href="assets/images/icon.png" type="image/x-icon">
+</head>
+
+<body>
+    <div id="content">
+        <div id="header" class="header"></div>
+        <div class="buttons">
+            <input type="button" value="AC"     class="button" onclick="clearHeader()">
+            <input type="button" value="7"      class="button" onclick="calc    (this.value)">
+            <input type="button" value="4"      class="button" onclick="calc    (this.value)">
+            <input type="button" value="1"      class="button" onclick="calc    (this.value)">
+            <input type="button" value="0"      class="button" onclick="calc    (this.value)">
+            <input type="button" value="()"     class="button" onclick="calc    (this.value)">
+            <input type="button" value="8"      class="button" onclick="calc    (this.value)">
+            <input type="button" value="5"      class="button" onclick="calc    (this.value)">
+            <input type="button" value="2"      class="button" onclick="calc    (this.value)">
+            <input type="button" value="."      class="button" onclick="calc    (this.value)">
+            <input type="button" value=" % "    class="button" onclick="calc    (this.value)">
+            <input type="button" value="9"      class="button" onclick="calc    (this.value)">
+            <input type="button" value="6"      class="button" onclick="calc    (this.value)">
+            <input type="button" value="3"      class="button" onclick="calc    (this.value)">
+            <input type="button" value="C"      class="button" onclick="clearHeader()">
+            <input type="button" value=" / "    class="button blue" onclick="calc(' / ')">
+            <input type="button" value=" X "    class="button blue" onclick="calc(' * ')">
+            <input type="button" value=" - "    class="button blue" onclick="calc(' - ')">
+            <input type="button" value=" + "    class="button blue" onclick="calc(' + ')">
+            <input type="button" value=" = "    class="button blue" onclick="calcular()">
+        </div>
+    </div>
+</body>
+
+</html>
