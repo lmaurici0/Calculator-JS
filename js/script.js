@@ -18,5 +18,6 @@ function clearHeader() {
 function calcular() {
   var screen = document.getElementById("header");
   resp = eval(num1);
-  screen.innerText = resp;
+  screen.innerText = resp
+  num1 = ""
 }
